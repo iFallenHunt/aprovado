@@ -17,8 +17,8 @@ int main(){
 	nfim = n1+n2;
 	
 	if (nfim >= 60){
-		printf("Nota %d, \nAluno aprovado", nfim);
+		printf("Nota: %d \nAPROVADO", nfim);
 	}else{
-		printf("Nota %d, \nAluno reprovado", nfim);
+		printf("Nota: %d \nREPROVADO", nfim);
 	}
 }
